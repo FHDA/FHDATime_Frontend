@@ -44,3 +44,10 @@ In both of reason, we will writing in English
 ## 4. Welcome to join our team
 
 The project is going on slow and may not be good enough unless more people join and make pull request if possilbe. Therefore, we are very kindly welcome you join our project. Specailly, if you want to make Foothill-Denaza College better.
+
+## 5. How to develop this project
+
+If you are first time clone and develop, remember do ```npm install``` after you clone this repo.
+
+- ```npm start``` - This will start develop mode of react app
+- ```npm test``` - This will run unit test for this project
