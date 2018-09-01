@@ -20,7 +20,7 @@ Therefore, not to use the semicolon, which is a _JS Standard Code Style_.
 
 ## 2. FHDAtime structure
 
-We decide to refer from https://daveceddia.com/react-project-structure/
+We decide to refer from https://daveceddia.com/react-project-structure/ and https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed
 
 - ```docs/``` - All our documentation should go here.
 - ```public/``` - All static page go here. This should be a static page, since react is a one page application, so we should not change a lot in the directory.
