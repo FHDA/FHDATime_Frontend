@@ -6,37 +6,30 @@ This is FHDATime frontend application.
 
 ### 1. No semicolons
 
-    1. <http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding>
-    2. <http://inimino.org/~inimino/blog/javascript_semicolons>
-    3. <https://www.youtube.com/watch?v=gsfbh17Ax9I>
+1. <http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding>
+2. <http://inimino.org/~inimino/blog/javascript_semicolons>
+3. <https://www.youtube.com/watch?v=gsfbh17Ax9I>
 
-    Therefore, not to use the semicolon, which is a _JS Standard Code Style_.
+Therefore, not to use the semicolon, which is a _JS Standard Code Style_.
 
-    [![JS Standard Coding Style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://standardjs.com/rules.html#semicolons)
+[![JS Standard Coding Style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://standardjs.com/rules.html#semicolons)
 
-    > No semicolons.
+> No semicolons.
 
-### 2. more...TBA
+### more...TBA
 
 ## 2. FHDAtime structure
 
 We decide to refer from https://daveceddia.com/react-project-structure/
 
-```docs/``` - All our documentation should go here.
-
-```public/``` - this should be a static page, since react is a one page application, so we should not change a lot in the directory.
-
-```src/api``` - Make calls to a backend API. Put all that code here. For example, put the area-specific API files under there such as userApi.js, productApi.js, etc.
-
-```src/components``` - All your Presentational (aka Dumb) components go here.
-
-```src/containers``` - The Container components go here. These are the stateful ones, and the ones that make the API calls. If you’re using Redux, these are the ones that are connected to the store. Notice that CSS and tests are in the same folder as their respective components.
-
-```src/images``` - images file go here
-
-```src/utils``` - You’ll probably end up with miscellaneous utility functions – error handlers, formatters, etc.. go here
-
-```src/index.js``` - This is where you initialize the app and call ReactDOM.render, so it makes sense to keep this at the top level.
+- ```docs/``` - All our documentation should go here.
+- ```public/``` - All static page go here. This should be a static page, since react is a one page application, so we should not change a lot in the directory.
+- ```src/api``` - All API relate go here. Make calls to a backend API. Put all that code here. For example, put the area-specific API files under there such as userApi.js, productApi.js, etc.
+- ```src/components``` - All your Presentational (aka Dumb) components go here.
+- ```src/containers``` - The Container components go here. These are the stateful ones, and the ones that make the API calls. If you’re using Redux, these are the ones that are connected to the store. Notice that CSS and tests are in the same folder as their respective components.
+- ```src/images``` - images file go here
+- ```src/utils``` - You’ll probably end up with miscellaneous utility functions – error handlers, formatters, etc.. go here.
+- ```src/index.js``` - This is where you initialize the app and call ReactDOM.render, so it makes sense to keep this at the top level.
 
 ## 3. Why are the entire project writing in English
 
